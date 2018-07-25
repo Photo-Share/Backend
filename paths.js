@@ -14,7 +14,7 @@ module.exports = {
 	model: {
 		user: path.resolve(modelDir + '/user'),
 		facebook_user: path.resolve(modelDir + '/facebook_user'),
-		token: path.resolve(modelDir + '/token')
+		auth_token: path.resolve(modelDir + '/auth_token')
 	},
 
 	controller: {
